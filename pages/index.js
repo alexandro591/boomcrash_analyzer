@@ -43,7 +43,7 @@ export default function Home() {
 
     const chart = () => {
         setWidth(window.innerWidth);
-        setHeight(window.innerHeight);
+        setHeight(window.innerHeight + 50);
         const updateData = async () => {
             const url = base_url + location?.search?.replace("?", "");
             const {
